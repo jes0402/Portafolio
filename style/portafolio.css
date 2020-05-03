@@ -1,0 +1,110 @@
+body{
+  background-image: url(../imagenes/back.JPEG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+h1, h2{
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  color: #000;
+
+}
+
+div{
+  text-align: center;
+  justify-content: center;
+  color: #873957;
+}
+
+#button li {
+ display: inline;
+ text-align: center;
+
+ }
+
+ #button li a:hover {
+ background-color: #873957;
+ margin-top: -2;
+ padding-bottom: 12px;
+ text-align: center;
+
+ }
+
+ li{
+   list-style: none;
+   display: inline-block;
+   font-weight: bold;
+   font-size: 20px;
+   padding: 20px;
+   font-family: 'Abril Fatface', cursive;
+   color: #873957;
+  }
+   p {
+  font-family: 'Abril Fatface', cursive;
+  }
+
+ img{
+   width: 320px;
+   height: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30%;
+   border: solid 1px black;
+ }
+ footer{
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .sigueme{
+    box-sizing:border-box;
+    color: #873957;
+    display:list-item;
+    font-family:Lato, Helvetica, Arial, sans-serif;
+    font-size:16px;
+    font-weight:900;
+    height:55px;
+    line-height:28px;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    text-align:center;
+    text-size-adjust:100%;
+    transition-delay:0.7s, 0.7s;
+    transition-duration:0.425s, 0.15s;
+    transition-property:transform, opacity;
+    transition-timing-function:cubic-bezier(0.69, 0.03, 0.03, 0.93), ease-out;
+    user-select:none;
+    visibility:visible;
+  }
+
+  .icono{
+    text-align: center;
+    justify-content: center;
+    width:20px;
+    height:20px;
+		top:10px;
+		right:0;
+  }
+  .fab fa-facebook-square{
+    text-align: center;
+    justify-content: center;
+    width:20px;
+    height:20px;
+		top:10px;
+		right:0;
+  }
